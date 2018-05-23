@@ -67,9 +67,9 @@
             </a-layout-content>
             <a-layout-footer class="text-center">
                 <div>
-                    <a href="Vue Ant Design" class="text-dark mr-2">Vue Ant</a>
-                    <a href="#"><a-icon type="github" class="text-dark mr-2"></a-icon></a>
-                    <a href="http://pro.ant.design/" class="text-dark">Pro 首页</a>
+                    <a href="https://vuecomponent.github.io/ant-design/docs/vue/introduce/" class="text-dark mr-2">Vue Ant</a>
+                    <a href="https://github.com/xingyys/vue-admin"><a-icon type="github" class="text-dark mr-2"></a-icon></a>
+                    <a href="https://pro.ant.design/index-cn" class="text-dark">Pro 首页</a>
                 </div>
                 <div>Ant Design ©2016 Created by Ant UED</div>
             </a-layout-footer>

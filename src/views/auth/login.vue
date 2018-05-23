@@ -18,10 +18,10 @@
                         <router-link to="/register">注册</router-link>
                     </a-divider>
                     <div class="text-center">
-                        <a-icon class="mr-3" style="font-size: 32px;" type="wechat" />
-                        <a-icon class="mr-3" style="font-size: 32px;" type="weibo" />
-                        <a-icon class="mr-3" style="font-size: 32px;" type="alipay" />
-                        <a-icon style="font-size: 32px;" type="github" />
+                        <a-icon class="mr-3 text-success" style="font-size: 32px;" type="wechat" />
+                        <a-icon class="mr-3 text-danger" style="font-size: 32px;" type="weibo" />
+                        <a-icon class="mr-3 text-primary" style="font-size: 32px;" type="alipay" />
+                        <a-icon style="font-size: 32px; text-dark" type="github" />
                     </div>
                 </a-col>
             </a-row>

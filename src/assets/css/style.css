@@ -1974,3 +1974,7 @@ button.bg-dark:focus {
 .bg-transparent {
     background-color: transparent !important;
 }
+
+.card .ant-card-body {
+    padding: 0px !important;
+}

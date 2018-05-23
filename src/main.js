@@ -7,9 +7,12 @@ import Antd from 'vue-antd-ui'
 import NProcess from 'nprogress'
 import 'vue-antd-ui/dist/antd.min.css'
 import './assets/css/style.css'
+import axios from 'axios'
+require('./mock')
 
 Vue.config.productionTip = false
 Vue.use(Antd)
+Vue.prototype.$http = axios
 
 router.beforeEach((to, from, next) => {
   NProcess.start()
