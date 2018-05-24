@@ -114,59 +114,71 @@
                 </a-card>
                 <a-card class="card mt-4" title="动态">
                     <div class="px-4">
-                        <div class="py-3 border-bottom">
+                        <div class="media py-2 border-bottom">
                             <img src="../../assets/images/avatar.jpg" width="40" height="40" class="rounded-circle float-left mr-3" alt="">
-                            <div>
-                                <router-link class="text-dark mr-2" to="#">xingyys</router-link>在
-                                <router-link class="mx-1" to="#">XX团队</router-link>新建项目
-                                <router-link class="mx-1" to="#">XXXX</router-link>
+                            <div class="media-body">
+                                <div>
+                                    <router-link class="text-dark mr-2" to="#">xingyys</router-link>在
+                                    <router-link class="mx-1" to="#">XX团队</router-link>新建项目
+                                    <router-link class="mx-1" to="#">XXXX</router-link>
+                                </div>
+                                <span>4 小时前</span>
                             </div>
-                            <div>4 小时前</div>
                         </div>
-                        <div class="py-3 border-bottom">
+                        <div class="media py-2 border-bottom">
                             <img src="../../assets/images/avatar.jpg" width="40" height="40" class="rounded-circle float-left mr-3" alt="">
-                            <div>
-                                <router-link class="text-dark mr-2" to="#">xingyys</router-link>在
-                                <router-link class="mx-1" to="#">XX团队</router-link>新建项目
-                                <router-link class="mx-1" to="#">XXXX</router-link>
+                            <div class="media-body">
+                                <div>
+                                    <router-link class="text-dark mr-2" to="#">xingyys</router-link>在
+                                    <router-link class="mx-1" to="#">XX团队</router-link>新建项目
+                                    <router-link class="mx-1" to="#">XXXX</router-link>
+                                </div>
+                                <span>4 小时前</span>
                             </div>
-                            <div>4 小时前</div>
                         </div>
-                        <div class="py-3 border-bottom">
+                        <div class="media py-2 border-bottom">
                             <img src="../../assets/images/avatar.jpg" width="40" height="40" class="rounded-circle float-left mr-3" alt="">
-                            <div>
-                                <router-link class="text-dark mr-2" to="#">xingyys</router-link>在
-                                <router-link class="mx-1" to="#">XX团队</router-link>新建项目
-                                <router-link class="mx-1" to="#">XXXX</router-link>
+                            <div class="media-body">
+                                <div>
+                                    <router-link class="text-dark mr-2" to="#">xingyys</router-link>在
+                                    <router-link class="mx-1" to="#">XX团队</router-link>新建项目
+                                    <router-link class="mx-1" to="#">XXXX</router-link>
+                                </div>
+                                <span>4 小时前</span>
                             </div>
-                            <div>4 小时前</div>
                         </div>
-                        <div class="py-3 border-bottom">
+                        <div class="media py-2 border-bottom">
                             <img src="../../assets/images/avatar.jpg" width="40" height="40" class="rounded-circle float-left mr-3" alt="">
-                            <div>
-                                <router-link class="text-dark mr-2" to="#">xingyys</router-link>在
-                                <router-link class="mx-1" to="#">XX团队</router-link>新建项目
-                                <router-link class="mx-1" to="#">XXXX</router-link>
+                            <div class="media-body">
+                                <div>
+                                    <router-link class="text-dark mr-2" to="#">xingyys</router-link>在
+                                    <router-link class="mx-1" to="#">XX团队</router-link>新建项目
+                                    <router-link class="mx-1" to="#">XXXX</router-link>
+                                </div>
+                                <span>4 小时前</span>
                             </div>
-                            <div>4 小时前</div>
                         </div>
-                        <div class="py-3 border-bottom">
+                        <div class="media py-2 border-bottom">
                             <img src="../../assets/images/avatar.jpg" width="40" height="40" class="rounded-circle float-left mr-3" alt="">
-                            <div>
-                                <router-link class="text-dark mr-2" to="#">xingyys</router-link>在
-                                <router-link class="mx-1" to="#">XX团队</router-link>新建项目
-                                <router-link class="mx-1" to="#">XXXX</router-link>
+                            <div class="media-body">
+                                <div>
+                                    <router-link class="text-dark mr-2" to="#">xingyys</router-link>在
+                                    <router-link class="mx-1" to="#">XX团队</router-link>新建项目
+                                    <router-link class="mx-1" to="#">XXXX</router-link>
+                                </div>
+                                <span>4 小时前</span>
                             </div>
-                            <div>4 小时前</div>
                         </div>
-                        <div class="py-3 border-bottom">
+                        <div class="media py-2 border-bottom">
                             <img src="../../assets/images/avatar.jpg" width="40" height="40" class="rounded-circle float-left mr-3" alt="">
-                            <div>
-                                <router-link class="text-dark mr-2" to="#">xingyys</router-link>在
-                                <router-link class="mx-1" to="#">XX团队</router-link>新建项目
-                                <router-link class="mx-1" to="#">XXXX</router-link>
+                            <div class="media-body">
+                                <div>
+                                    <router-link class="text-dark mr-2" to="#">xingyys</router-link>在
+                                    <router-link class="mx-1" to="#">XX团队</router-link>新建项目
+                                    <router-link class="mx-1" to="#">XXXX</router-link>
+                                </div>
+                                <span>4 小时前</span>
                             </div>
-                            <div>4 小时前</div>
                         </div>
                     </div>
                 </a-card>

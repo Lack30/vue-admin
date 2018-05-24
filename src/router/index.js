@@ -58,31 +58,64 @@ export default new Router({
       children: [{
         path: '/auth/login',
         name: '登录',
-        redirect: '/login',
         component: resolve => require(['../views/auth/login'], resolve)
       }, {
         path: '/auth/register',
         name: '注册',
-        redirect: '/register',
         component: resolve => require(['../views/auth/register'], resolve)
       }, {
         path: '/auth/forget',
         name: '忘记密码',
-        redirect: '/forget',
         component: resolve => require(['../views/auth/forget'], resolve)
+      }, {
+        path: '/auth/403',
+        name: '403错误',
+        component: resolve => require(['../views/auth/403'], resolve)
+      }, {
+        path: '/auth/404',
+        name: '404错误',
+        component: resolve => require(['../views/auth/404'], resolve)
+      }, {
+        path: '/auth/500',
+        name: '500错误',
+        component: resolve => require(['../views/auth/500'], resolve)
       }]
-    },]
+    },{
+      path: '/list',
+      name: '列表页',
+      component: resolve => require(['../views/list/base'], resolve),
+      meta: {
+        icon: 'table',
+      },
+      children: [{
+        path: '/list/table',
+        name: '查询表格',
+        component: resolve => require(['../views/list/table-list'], resolve),
+      },{
+        path: '/list/basic',
+        name: '标准列表',
+        component: resolve => require(['../views/list/basic-list'], resolve),
+      },{
+        path: '/list/card',
+        name: '卡片列表',
+        component: resolve => require(['../views/list/card-list'], resolve),
+      },{
+        path: '/list/article',
+        name: '文章列表',
+        component: resolve => require(['../views/list/article-list'], resolve),
+      }]
+    }]
   }, {
     path: '/login',
     name: 'login',
-    component: resolve => require(['../views/auth/login'], resolve)
+    component: resolve => require(['../views/login'], resolve)
   }, {
     path: '/register',
     name: 'register',
-    component: resolve => require(['../views/auth/register'], resolve)
+    component: resolve => require(['../views/register'], resolve)
   }, {
     path: '/forget',
     name: 'forget',
-    component: resolve => require(['../views/auth/forget'], resolve)
+    component: resolve => require(['../views/forget'], resolve)
   }]
 })
