@@ -1,5 +1,5 @@
 <template>
-    <a-layout id="layout">
+    <a-layout id='layout'>
         <a-layout-sider :trigger="null" collapsible v-model="collapsed" width="256">
             <div class="logo">
                 <h1 class="text-light text-truncate">
@@ -67,9 +67,11 @@
             </a-layout-content>
             <a-layout-footer class="text-center">
                 <div>
-                    <a href="https://vuecomponent.github.io/ant-design/docs/vue/introduce/" class="text-dark mr-2">Vue Ant</a>
-                    <a href="https://github.com/xingyys/vue-admin"><a-icon type="github" class="text-dark mr-2"></a-icon></a>
-                    <a href="https://pro.ant.design/index-cn" class="text-dark">Pro 首页</a>
+                    <a target="_blank" href="https://vuecomponent.github.io/ant-design/docs/vue/introduce/" class="text-dark mr-2">Vue Ant</a>
+                    <a target="_blank" href="https://github.com/xingyys/vue-admin">
+                        <a-icon type="github" class="text-dark mr-2"></a-icon>
+                    </a>
+                    <a target="_blank" href="https://pro.ant.design/index-cn" class="text-dark">Pro 首页</a>
                 </div>
                 <div>Ant Design ©2016 Created by Ant UED</div>
             </a-layout-footer>
@@ -97,7 +99,10 @@ export default {
     },
     callback(item) {
       console.log(item);
-    }
+    },
+  },
+  mounted() {
+      
   }
 };
 </script>

@@ -11,7 +11,7 @@
                 <h2>
                     <router-link to="#" class="text-dark">{{ item.title }}</router-link>
                 </h2>
-                <a-tag v-for="tag in item.tags" :key="tag">{{ tag }}</a-tag>
+                <a-tag v-for="tag in item.tags" :key="tag"><router-link to="#">{{ tag }}</router-link></a-tag>
                 <div class="mt-3">{{ item.desc }}</div>
                 <div class="mt-3">
                     <img :src="item.img" width="30" height="30" class="rounded-circle mr-2" alt="">
@@ -39,31 +39,31 @@
             <div class="text-center mt-3">
                 <a-button :loading="loading" @click="loadMore">加载更多</a-button>
             </div>
-        </div>
+        </div>    
+        <a-back-top :visibilityHeight="10" @target="() => document.getElementById('article-list')" />        
     </div>
 </template>
 
 <script>
 export default {
-  name: "article",
   data() {
     return {
       data: [],
-      loading: false,
+      loading: false
     };
   },
   methods: {
-      loadMore() {
-          this.loading = true
-          setTimeout(() => {
-              this.$http.get('/api/article-list').then(res => {
-                  res.data.data.map(item => {
-                      this.data.push(item)
-                  })
-                  this.loading = false
-              })
-          }, 1500)
-      }
+    loadMore() {
+      this.loading = true;
+      setTimeout(() => {
+        this.$http.get("/api/article-list").then(res => {
+          res.data.data.map(item => {
+            this.data.push(item);
+          });
+          this.loading = false;
+        });
+      }, 1500);
+    }
   },
   mounted() {
     this.$http.get("/api/article-list").then(res => {
@@ -73,4 +73,3 @@ export default {
   }
 };
 </script>
-
